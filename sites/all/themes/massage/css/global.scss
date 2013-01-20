@@ -1,0 +1,133 @@
+body {
+	background-color:#d0bbd4;
+	font-family:'Myriad Pro','Droid Sans',sans-serif;
+	font-size:14px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Myriad Pro','Droid Sans',sans-serif;
+}
+
+#zone-branding {
+	background-color:#ebebeb;
+	min-height:128px;
+	background-image:url(../images/top-burst.png);
+	background-position: 818px -38px;
+	background-repeat:no-repeat;
+
+
+	.region-branding-inner {
+		padding-left:30px;
+	}
+	
+	.site-name {
+		margin-top:30px;
+		margin-bottom:5px;
+		letter-spacing:2px;
+		font-weight:bold;
+		a:visited, a:link, a:hover, a:active {
+			color:#471b54;
+		}
+	}
+	.site-slogan {
+		color:#838383;
+		font-size:18px;
+	}
+}
+
+#zone-content {
+	background-color:#fafafa;
+	background-image:url(../images/bottom-burst.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;	
+	.block-main-menu {
+		ul.menu {
+			margin-top:35px;
+			list-style:none;
+			margin-left:30px;
+			li {
+				margin-left:0;
+				list-style:none;
+				font-size:1.2em;
+				margin-bottom:30px;
+				font-weight:bold;
+				a:visited, a:link, a:active, a:hover {
+					color:#7aad9f;
+					text-decoration:none;
+				}
+			}
+			li.active-trail a {
+				color:#4b1b55;
+			}
+		}
+	}
+
+
+	#page-title {
+		margin-top:50px;
+		color:#2e836c;
+		font-weight:normal;
+		margin-bottom:0;
+		font-size:28px;
+	}
+
+
+	.block-main {
+		color:#4b1b53;
+		padding-bottom:50px;	
+		.ds-2col {
+			.group-left {
+				width:545px;
+			}
+			.group-right {
+				width:215px;
+				position:relative;
+				top:-30px;	
+			}
+		}
+	}
+
+	.field-name-body {
+		margin-right:30px;
+	}
+
+	.field-name-field-quote {
+		color:#2e836c;
+		font-size:20px;
+		margin-right:30px;
+	}
+	.field-name-field-quote-attribution {
+		color:#2e836c;
+		text-align:right;
+		margin-right:30px;
+	}
+	.field-name-field-page-image {
+		text-align:center;
+		margin-top:60px;
+	}
+}
+
+#zone-footer {
+	background-color:#7d5a83;
+	color:white;
+	font-size:18px;
+	text-align:center;	
+	a:visited, a:hover, a:link, a:active {
+		color:white;
+		text-decoration:none;
+	}
+	
+	p {
+		margin-bottom:10px;
+		margin-top:10px;
+	}
+}
+
+
+.form-textarea-wrapper textarea {
+width:auto;
+}
+
+.grippie {
+display:none;
+}
