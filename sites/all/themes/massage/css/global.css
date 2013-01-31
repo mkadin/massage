@@ -12,18 +12,15 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../images/top-burst.png);
   background-position: 818px -38px;
   background-repeat: no-repeat; }
+  #zone-branding .logo-img {
+    margin-top: 30px;
+    float: left; }
   #zone-branding .region-branding-inner {
     padding-left: 30px; }
-  #zone-branding .site-name {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
-    font-weight: bold; }
-    #zone-branding .site-name a:visited, #zone-branding .site-name a:link, #zone-branding .site-name a:hover, #zone-branding .site-name a:active {
-      color: #471b54; }
   #zone-branding .site-slogan {
     color: #838383;
-    font-size: 18px; }
+    font-size: 18px;
+    clear: both; }
 
 #zone-content {
   background-color: #fafafa;
