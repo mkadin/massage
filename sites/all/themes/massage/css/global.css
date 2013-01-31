@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 30px; }
   #zone-branding .site-slogan {
     color: #838383;
-    font-size: 18px;
+    font-size: 18px; }
+  #zone-branding .site-name-slogan {
     clear: both; }
 
 #zone-content {
