@@ -1,0 +1,23 @@
+<?php
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function massage_glue_form_contact_site_form_alter(&$form, &$form_state, $form_id) {
+
+  $form['message']['#cols'] = 63;
+
+}
+
+/**
+ * Implements hook_wysiwyg_editor_settings_alter().
+ *
+ * Registers new font settings for ckeditor. 
+ */
+function massage_glue_wysiwyg_editor_settings_alter(&$settings, $context) {
+  // Each editor has its own collection of native settings that may be extended
+  // or overridden. Please consult the respective official vendor documentation
+  // for details.
+  if ($context['profile']->editor == 'ckeditor') {
+    $settings['font_names'] = 'Roboto;Petit Formal Script;Antic Slab;Arial;Times New Roman;Verdana';
+  }
+}
